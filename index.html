@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<title></title>
+</head>
+<body>
+	<style>
+	.headContents{
+		padding-top: 101px;
+	}
+	.send{
+		width: 100%
+	}
+	.maps{
+		height: 15em;
+	}
+
+	hr{
+		width: 30%;
+		color: orange;
+	}
+	.textareaBox {
+    min-height: 9em;
+}
+		ul{
+			display: inline-flex;
+		}
+		li{
+			padding: 1em
+		}
+		a{
+			color: white;
+			text-decoration: none;
+		}
+		.home{
+			background-image: url(./adult-alone-backlit-312491.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 20em;
+			background-attachment: fixed;
+		}
+
+		.parallax{
+			background-image: url(./adult-alone-backlit-312491.jpg);
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: cover;
+			height: 20em;
+		}
+		
+	</style>
+	<div class="container-fluid bg-dark position-fixed">
+		<ul>
+			<li><a href="#home">LOGO</a></li>
+			<li><a href="#home">HOME</a></li>
+			<li><a href="#about">ABOUT</a></li>
+			<li><a href="#gallery">GALERY</a></li>
+			<li><a href="#contact">CONTACT</a></li>
+		</ul>
+	</div>
+
+	<!-- THIS IS THE LANDING PAGE HOME SECTION -->
+	<section class="home" id="home">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<div class="headContents">
+						<center>
+						
+							<h1 class="text-white">WELCOME TO WOMEN DEVELOPMENT CENTER</h1>
+					<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tfficia.</p>
+						<button class="btn btn-warning">EXPLORE HERE</button>
+					</center>
+					</div>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- THIS IS THE ABOUT PAGE SECTION -->
+	<section class="about" id="about">
+		<div class="container">
+			<div class="row">
+				<center><h1 class="text-warning pt-4">About Us</h1></center>
+				<div class="col-md-6">
+					
+					<h2>ABOUT OUR COMPANY</h2>
+					<p align="justify">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</p>
+					<button class="btn btn-info block">Read More...</button>
+				</div>
+				<div class="col-md-6">
+					<img width="100%" src="peanut-soba-noodles-recipe-11.jpg">
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="parallax">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<center>
+						<h1>SAVE A SOUL TODAY BY SENDING YOUR DONATIONS TO MY ACCOUNT</h1>
+					<button class="btn btn-warning">DONATE NOW</button>
+					</center>
+				</div>
+				<div class="col-md-3"></div>
+			</div>
+		</div>
+	</section>
+
+	<!-- THIS IS THE GALLERY PAGE SECTON -->
+	<section class="gallery pt-5" id="gallery">
+		<div class="container">
+			<div class="row">
+				<center>
+					<h1 class="text-warning">Gallery</h1>
+					<hr class="small">
+				</center>
+				<div class="col-md-4">
+					<img width="100%" src="gallery/1.jpg">
+				</div>
+				<div class="col-md-4">
+					<img width="100%" src="gallery/2.jpg">
+				</div>
+				<div class="col-md-4">
+					<img width="100%" src="gallery/3.jpg">
+				</div>
+			</div>
+			<div class="row pt-2">
+				<div class="col-md-4">
+					<img width="100%" src="gallery/4.jpg">
+				</div>
+				<div class="col-md-4">
+					<img width="100%" src="gallery/5.jpg">
+				</div>
+				<div class="col-md-4">
+					<img width="100%" src="gallery/6.jpg">
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- THIS IS THE CONTACT PAGE SECTION -->
+	<section class="contact pt-5" id="contact">
+		<div class="container">
+			<div class="row">
+				<center><h1 class="text-warning">CONTACT US</h1></center>
+				<div class="col-md-6">
+					<form action="https://formspree.io/f/mqknjkwq" method="post">
+						<p><input required="" class="form-control" type="text" name="name" placeholder="name"></p>
+						<p><input required="" class="form-control" type="email" name="email" placeholder="email goes here"></p>
+						<p>
+							<textarea required="" class="form-control textareaBox" type="text" name="message" placeholder="messages here"></textarea>
+						</p>
+						<button class="btn btn-block send btn-warning">SEND</button>
+					</form>
+				</div>
+				<div class="col-md-6">
+					<iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d63413.44022854794!2d3.3016659429018915!3d6.604601877243499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sboluke%20pharmacy!5e0!3m2!1sen!2sng!4v1654513962554!5m2!1sen!2sng" width="100%"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	</main>
+	
+
+</body>
+</html>
